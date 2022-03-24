@@ -16,6 +16,7 @@ button {
 
 .jumbotron {
     margin-bottom: 0 !important;
+    
 }
 
 .atlas-cta {
@@ -36,7 +37,7 @@ button {
 
 .cta-red {
     color: #ffffff;
-    background: linear-gradient(-45deg, #fc4c49, #f72320);;
+    background: linear-gradient(-45deg, #fc4c49, #f72320);
 }
 
 form .cta-red {
@@ -55,14 +56,15 @@ form .cta-red:hover {
     color: #f33533;
 }
 
-.cta-blue {
-    background: #192440;
+.cta-red-new {
     color: #ffffff;
+    background: linear-gradient(-45deg, #fc4c49, #f72320);
 }
 
-.cta-blue:hover {
-    color: #ffffff;
-    background: #121a2e;
+.cta-red-new:hover {
+    
+    background:#30282B;
+    color: #f33533;
 }
 
 .cta-ghost {
@@ -86,6 +88,7 @@ form .cta-red:hover {
 
 #banner header img {
     max-width: 180px;
+
 }
 
 /********** feature (skew background) **********/
@@ -95,12 +98,28 @@ form .cta-red:hover {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    background: linear-gradient(168deg, #ffffff 55%, #f8f9fa 0);
 }
 
 #feature-last {
-    background: #00FFAD;
+    background: #f8f9fa;
 }
+
+.feature-2-text{
+    color: black;
+}
+
+.feature-img-1 img{
+    padding: 0 0 60px 0;
+    max-width: 200%;
+    width: 800px;
+}
+
+img .img-fluid-feature {
+    max-width:150%;
+    width: 600px;
+    height:auto;
+   }
 
 /********** price table **********/
 #price-table {
