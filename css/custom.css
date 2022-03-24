@@ -4,6 +4,10 @@ h2 {
     font-weight: 700;
 }
 
+h6 {
+    font-weight: 700;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -142,14 +146,28 @@ img .img-fluid-feature {
     padding-bottom: 4rem !important;
 }
 
-#price-table__premium {
-    background: #192440;
-    color: #ffffff;
+#testimony {
+    background: #ffffff;
+    color: #000000;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
-#price-table ul li {
+#testimony ul li {
     padding: 5px 0;
 }
+
+#testimony h2 {
+    padding: 6vh;
+}
+
+#testimony .testimony-center{
+    background-color: #f8f9fa;
+    box-shadow: 1px 1px 25px #d8d8d8;
+    padding: 30px;
+    height: 55vh;
+}
+
 
 /********** contact **********/
 #contact {
