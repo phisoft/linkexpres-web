@@ -35,13 +35,14 @@ button {
 }
 
 .cta-green {
-    background: #00FFAD;
-    color: #192440;
+    color: #ffffff;
+    background: #f33533;
 }
 
 .cta-green:hover {
-    color: #ffffff;
-    background: #00e69c;
+    
+    background: #ffffff;
+    color: #f33533;
 }
 
 .cta-blue {
@@ -74,7 +75,7 @@ button {
 }
 
 #banner header img {
-    max-width: 80px;
+    max-width: 180px;
 }
 
 /********** feature (skew background) **********/
@@ -160,3 +161,8 @@ button {
         font-size: 3.6rem;
     }
 }
+
+.jumbotron header .container .row{
+    padding: 0 0 0 20px ;
+}
+
