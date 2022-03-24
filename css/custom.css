@@ -19,6 +19,16 @@ button {
     
 }
 
+.text-white-banner{
+        color:white;
+        text-shadow: 2px 2px 6px black;    
+} 
+
+.text-white-banner-desc {
+    color:white;
+    text-shadow: 1px 1px 5px black;    
+} 
+
 .atlas-cta {
     border-radius: 22px !important;
     padding: 12px 30px !important;
@@ -35,9 +45,14 @@ button {
     width: 100%;
 }
 
+.shadow-lg{
+    box-shadow: 1px 1px 5px black ;
+}
+
 .cta-red {
     color: #ffffff;
     background: linear-gradient(-45deg, #fc4c49, #f72320);
+    box-shadow: black;
 }
 
 form .cta-red {
