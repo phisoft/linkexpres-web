@@ -34,12 +34,22 @@ button {
     width: 100%;
 }
 
-.cta-green {
+.cta-red {
     color: #ffffff;
-    background: linear-gradient(-45deg, #f72320, #fc4c49);;
+    background: linear-gradient(-45deg, #fc4c49, #f72320);;
 }
 
-.cta-green:hover {
+form .cta-red {
+    color: #f33533;
+    background: #ffffff;
+}
+
+form .cta-red:hover {
+    color: #ffffff;
+    background: #f33533;
+}
+
+.cta-red:hover {
     
     background: #ffffff;
     color: #f33533;
@@ -117,19 +127,19 @@ button {
 }
 
 #contact form {
-    color: #00FFAD;
+    color: #ffffff;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00FFAD;
+    border: 1px solid #ffffff;
     color: #ffffff;
 }
 
 /********** copyright **********/
 #copyright {
-    background: #192440;
+    background:linear-gradient(40deg, #f33533, #f37270);
     padding: 2rem 3rem;
 }
 
@@ -142,13 +152,13 @@ button {
 }
 
 #copyright #social-media a i {
-    color: #192440;
+    color: #f33533;
     font-size: 1.2rem;
     line-height: 40px;
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    background: #f33533;
 }
 
 #copyright #social-media a:hover i {
@@ -167,7 +177,7 @@ button {
 }
 
 .feature-1 .wrap-icon.icon-1 {
-    background: linear-gradient(-45deg, #f37270, #f33533);
+    background: linear-gradient(120deg, #f33533, #f37270);
 }
 
 .wrap-icon {
