@@ -20,8 +20,8 @@ button {
 
 .jumbotron {
     margin-bottom: 0 !important;
-    
 }
+
 
 .text-white-banner{
         color:white;
@@ -111,13 +111,22 @@ form .cta-red:hover {
 }
 
 /********** feature (skew background) **********/
-.feature img {
-    width: 100%;
-    max-width: 480px;
+#feature-first .container-feature img {
+    max-width: 100%;
+    width: 95vh;   
+}
+
+#feature-first .container .col-md-4{
+   margin-right: 6vh;
+   padding-right: 5vh;
 }
 
 #feature-first {
     background: linear-gradient(168deg, #ffffff 55%, #f8f9fa 0);
+}
+
+.jumbotron .container-feature{
+    padding: 0 4rem 0 18rem;
 }
 
 #feature-last {
@@ -128,11 +137,11 @@ form .cta-red:hover {
     color: black;
 }
 
-.feature-img-1 img{
+/* .feature-img-1 img{
     padding: 0 0 60px 0;
     max-width: 200%;
     width: 800px;
-}
+} */
 
 img .img-fluid-feature {
     max-width:150%;
