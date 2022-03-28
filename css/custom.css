@@ -146,26 +146,43 @@ img .img-fluid-feature {
     padding-bottom: 4rem !important;
 }
 
+
+/* Testimonial */
+
 #testimony {
-    background: #ffffff;
+    background: #fff;
     color: #000000;
-    padding-top: 8vh;
-    padding-bottom: 8vh;
+    padding: 9vh 0 12vh 0;
 }
 
-#testimony ul li {
-    padding: 5px 0;
+#testimony img{
+    max-width: 100vh;
+    width: 380px;
+    padding: 14vh 0 6vh 0;
 }
+
+/* #testimony ul li {
+    padding: 5px 0;
+} */
 
 #testimony h2 {
-    padding: 6vh;
+    padding: 0 0 0 0;
 }
 
-#testimony .testimony-center{
+/* #testimony .testimony-center{
     background-color: #f8f9fa;
     box-shadow: 1px 1px 25px #d8d8d8;
     padding: 30px;
     height: 55vh;
+} */
+
+#testimony h6{
+    color:black;
+    font-size: 16px;
+    line-height: 5.5vh;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 20vh 0 20vh;
 }
 
 
@@ -218,9 +235,30 @@ img .img-fluid-feature {
 }
 
 /********** RWD **********/
-@media (max-width: 575px) {
+@media only screen and (max-width: 575px) {
     #banner h1 {
         font-size: 3.6rem;
+    }
+
+    #testimony {
+        background: #fff;
+        color: #000000;
+        padding: 3vh 0 5vh 0;
+    }
+
+    #testimony img{
+        max-width: 100vh;
+        width: 250px;
+        padding: 6vh 0 1vh 0;
+    }
+
+    #testimony h6{
+        color:black;
+        font-size: 14px;
+        line-height: 3.0vh;
+        text-align: center;
+        font-weight: 400;
+        padding: 0 3.5vh 0 3.5vh;
     }
 }
 
