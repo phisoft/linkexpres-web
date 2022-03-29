@@ -388,51 +388,106 @@ header
   padding-top: 10vh;
 }
 
-/********** feature (skew background) **********/
-#feature-first .container-feature img {
+/********** product **********/
+
+#product-first {
+  padding: 0 0 0 0;
+}
+
+.container .product-title{
+  padding: 22vh 0 20vh 0;
+}
+
+.product-container{
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+#product-first .container-feature img {
     max-width: 100%;
     width: 95vh;   
 }
 
-#feature-first .container .col-md-4{
+#product-first .container .col-md-4{
    margin-right: 6vh;
    padding-right: 5vh;
 }
 
-#feature-first {
+#product-first {
     background: linear-gradient(168deg, #ffffff 55%, #f8f9fa 0);
 }
+
+.product-1 {
+  display: flex;
+}
+
+.product-1-title{
+  padding: 12vh 6vh 20vh 27vh;
+  margin: 0 0 0 0;
+} 
+.product-1-img{
+  padding: 0 26.5vh 20vh 0;
+  width: 240vh;
+  margin: 0 0 0 0;
+} 
+
+.product-1-img img{
+  border-radius: 20px;
+  box-shadow: 0 0 15px 1px rgb(0 0 0 / 0.2);
+}
+
 
 .jumbotron .container-feature{
     padding: 0 4rem 0 18rem;
 }
 
-#feature-last {
+#product-last {
     background: #f8f9fa;
 }
-
-.feature-2-text{
-    color: black;
+#product-last {
+  padding: 0 0 5vh 0;
 }
 
-/* .feature-img-1 img{
-    padding: 0 0 60px 0;
-    max-width: 200%;
-    width: 800px;
-} */
+.container .product-title{
+  padding: 22vh 0 20vh 0;
+}
+
+#product-last .container-feature img {
+    max-width: 100%;
+    width: 95vh;   
+}
+
+#product-last .container .col-md-4{
+   margin-right: 6vh;
+   padding-right: 5vh;
+}
+
+.product-2 {
+  display: flex;
+}
+
+.product-2-title{
+  padding: 12vh 19vh 20vh 6vh;
+  margin: 0 0 0 0;
+} 
+.product-2-img{
+  padding: 0 0 20vh 26.5vh;
+  width: 120vh;
+  margin: 0 0 0 0;
+} 
+
+.product-2-img img{
+  border-radius: 20px;
+  box-shadow: 0 0 15px 1px rgb(0 0 0 / 0.2);
+}
 
 img .img-fluid-feature {
     max-width:150%;
     width: 600px;
     height:auto;
    }
-
-/********** price table **********/
-#price-table {
-    padding-top: 4rem !important;
-    padding-bottom: 4rem !important;
-}
-
 
 /* Testimonial */
 
