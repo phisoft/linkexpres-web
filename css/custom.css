@@ -274,7 +274,7 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #3B566E;
+  background-color: #f33533;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -282,7 +282,7 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #3B566E;
+  background-color: #f33533;
 }
 
 .header-area.header-sticky {
@@ -362,7 +362,7 @@ header
     padding: 0px !important;
     border: none !important;
     background: #fff !important;
-    color: #3B566E !important;
+    color: #000 !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
@@ -629,7 +629,7 @@ img .img-fluid-feature {
   #product-last {
     background: #f8f9fa;
     padding: 0 0 40vh 0;
-}
+  }
 
   .product-container-2{
     margin-right: auto;
@@ -705,33 +705,38 @@ img .img-fluid-feature {
   }
   
   /********** interactive copyright views **********/
-#copyright {
-  background:linear-gradient(40deg, #f33533, #f37270);
-  padding: 1rem;
-}
+  #copyright {
+    background:linear-gradient(40deg, #f33533, #f37270);
+    padding: 1rem;
+  }
 
-#copyright #social-media a {
-  width: 40px;
-  height: 40px;
-  border-radius: 99%;
-  background: #ffffff;
-  transition: .4s ease;
-}
+  #copyright #social-media a {
+    width: 40px;
+    height: 40px;
+    border-radius: 99%;
+    background: #ffffff;
+    transition: .4s ease;
+  }
 
-#copyright #social-media a i {
-  color: #f33533;
-  font-size: 1.2rem;
-  line-height: 40px;
-}
+  #copyright #social-media a i {
+    color: #f33533;
+    font-size: 1.2rem;
+    line-height: 40px;
+  }
 
-#copyright #social-media a:hover {
-  background: #f33533;
-}
+  #copyright #social-media a:hover {
+    background: #f33533;
+  }
 
-#copyright #social-media a:hover i {
-  color: #ffffff;
-}
+  #copyright #social-media a:hover i {
+    color: #ffffff;
+  }
 
+  /* Interactive contact section view */
+  .center-form{
+    margin-top: 0!important;
+    margin-bottom: 3rem!important;
+}
 
 }
 
