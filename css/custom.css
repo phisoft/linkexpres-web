@@ -405,6 +405,13 @@ header
   display: flex;
 }
 
+.product-container-2{
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
 #product-first .container-feature img {
     max-width: 100%;
     width: 95vh;   
@@ -426,7 +433,12 @@ header
 .product-1-title{
   padding: 12vh 6vh 20vh 27vh;
   margin: 0 0 0 0;
+}
+
+.product-1-title h2{
+  font-weight: bolder;
 } 
+
 .product-1-img{
   padding: 0 26.5vh 20vh 0;
   width: 240vh;
@@ -445,9 +457,7 @@ header
 
 #product-last {
     background: #f8f9fa;
-}
-#product-last {
-  padding: 0 0 5vh 0;
+    padding: 0 0 5vh 0;
 }
 
 .container .product-title{
@@ -522,18 +532,6 @@ img .img-fluid-feature {
     padding: 19vh 0 0 10vh;
 }
 
-/* #testimony ul li {
-    padding: 5px 0;
-} */
-
-
-/* #testimony .testimony-center{
-    background-color: #f8f9fa;
-    box-shadow: 1px 1px 25px #d8d8d8;
-    padding: 30px;
-    height: 55vh;
-} */
-
 #testimony h6{
     color:black;
     font-size: 20px;
@@ -545,6 +543,12 @@ img .img-fluid-feature {
 
 
 /********** contact **********/
+.center-form{
+    margin-top: 8rem!important;
+    margin-bottom: 3rem!important;
+}
+
+.container-contact
 #contact {
     background-size: cover;
 }
@@ -594,30 +598,141 @@ img .img-fluid-feature {
 
 /********** RWD **********/
 @media only screen and (max-width: 575px) {
-    #banner h1 {
-        font-size: 3.6rem;
-    }
+  #banner h1 {
+      font-size: 3.6rem;
+  }
+  /*Interactive view Product section */
+  .product-container{
+    display: block;
+  }
+  
+  .container .product-title{
+    padding: 0 0 0 0;
+  }
 
-    #testimony {
-        background: #fff;
-        color: #000000;
-        padding: 3vh 0 5vh 0;
-    }
+  .product-1-title h2{
+    text-align:center;
+    padding: 0 0 2vh 0;
+  }
 
-    #testimony img{
-        max-width: 100vh;
-        width: 250px;
-        padding: 6vh 0 1vh 0;
-    }
+  .product-1-title{
+    padding: 0 5vh 0 5vh;
+    text-align:justify;
+  }
 
-    #testimony h6{
-        color:black;
-        font-size: 14px;
-        line-height: 3.0vh;
-        text-align: center;
-        font-weight: 400;
-        padding: 0 3.5vh 0 3.5vh;
-    }
+  .product-1-img{
+    padding: 3vh 5vh 0 5vh;
+    width: 45vh;
+    max-width: fit-content;
+  }  
+
+  #product-last {
+    background: #f8f9fa;
+    padding: 0 0 40vh 0;
+}
+
+  .product-container-2{
+    margin-right: auto;
+    margin-left: auto;
+    display:inline-block;
+  }
+
+  .container .product-title{
+    padding: 10vh 0 7vh 0;
+  }
+
+  .product-2-title h2{
+    text-align:center;
+    padding: 18vh 0 2vh 0;
+    font-weight: bold;
+  }
+
+  .product-2-title{
+    padding: 5vh 5vh 0 5vh;
+    text-align:justify;
+  }
+
+  .product-2-img{
+    padding: 50vh 5vh 0 5vh;
+    width: 45vh;
+    max-width: fit-content;
+    position: absolute;
+  }  
+
+  /* Interactive view testimony section */
+  #testimony {
+    background: #fff;
+    padding: 13vh 0 21vh 0;
+  }
+
+  #testimony img{
+    max-width: 30vh;
+    width: 250px;
+    padding: 6vh 0 1vh 0;
+  }
+
+  #testimony h6{
+    color:black;
+    font-size: 14px;
+    line-height: 3.0vh;
+    text-align: center;
+    font-weight: 400;
+    padding: 0 1vh 0 1vh;
+  }
+  .container-testimony{
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #testimony h2{
+    padding: 2vh 0 8vh 0;
+  }
+
+  .center-container-testimony{
+    padding: 0 5vh 0 5vh;
+  }
+
+  .testimony-1 {
+    display: block;
+    border-radius: 25px;
+  }
+
+  .bg-color-lightgrey{
+    background-color: rgb(240, 240, 240);
+  }
+  
+  /********** interactive copyright views **********/
+#copyright {
+  background:linear-gradient(40deg, #f33533, #f37270);
+  padding: 1rem;
+}
+
+#copyright #social-media a {
+  width: 40px;
+  height: 40px;
+  border-radius: 99%;
+  background: #ffffff;
+  transition: .4s ease;
+}
+
+#copyright #social-media a i {
+  color: #f33533;
+  font-size: 1.2rem;
+  line-height: 40px;
+}
+
+#copyright #social-media a:hover {
+  background: #f33533;
+}
+
+#copyright #social-media a:hover i {
+  color: #ffffff;
+}
+
+
 }
 
 .jumbotron header .container .row{
