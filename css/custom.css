@@ -110,6 +110,10 @@ header
 --------------------------------------------- 
 */
 
+.jumbotron header .container .row {
+  padding: 0 0 0 20px;
+}
+
 .header {
   display: block;
 }
@@ -399,6 +403,32 @@ header
   padding-top: 10vh;
 }
 
+/* ABOUT */
+
+.feature-1 .wrap-icon.icon-1 {
+  background: linear-gradient(120deg, #f33533, #f37270);
+}
+
+.wrap-icon {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.feature-1 .wrap-icon i {
+  font-size: 46px;
+  line-height: 5;
+  color: #fff;
+}
+
 /********** product **********/
 
 #product-first {
@@ -552,9 +582,10 @@ img .img-fluid-feature {
 
 
 /********** contact **********/
-.center-form {
-  margin-top: 8rem !important;
-  margin-bottom: 3rem !important;
+
+#contact {
+  padding: 23vh 0 17vh 0;
+  background-size: cover;
 }
 
 .container-contact #contact {
@@ -574,6 +605,34 @@ img .img-fluid-feature {
   background: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  #contact {
+    padding: 20vh 0 14vh 0;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding: 17vh 0 11vh 0;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 576px) {
+  #contact {
+    padding: 9vh 0 5vh 0;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 376px) {
+  #contact {
+    padding: 4vh 0 1vh 0;
+    background-size: cover;
+  }
 }
 
 /********** copyright **********/
@@ -602,178 +661,4 @@ img .img-fluid-feature {
 
 #copyright #social-media a:hover i {
   color: #ffffff;
-}
-
-/********** RWD - INTERACTIVE MOBILE SCREEN **********/
-@media only screen and (max-width: 575px) {
-  #banner h1 {
-    font-size: 3.6rem;
-  }
-
-  /*Interactive view Product section */
-  .product-container {
-    display: block;
-  }
-
-  .container .product-title {
-    padding: 0 0 0 0;
-  }
-
-  .product-1-title h2 {
-    text-align: center;
-    padding: 0 0 2vh 0;
-  }
-
-  .product-1-title {
-    padding: 0 5vh 0 5vh;
-    text-align: justify;
-  }
-
-  .product-1-img {
-    padding: 3vh 5vh 0 5vh;
-    width: 45vh;
-    max-width: fit-content;
-  }
-
-  #product-last {
-    background: #f8f9fa;
-    padding: 0 0 40vh 0;
-  }
-
-  .product-container-2 {
-    margin-right: auto;
-    margin-left: auto;
-    display: inline-block;
-  }
-
-  .container .product-title {
-    padding: 10vh 0 7vh 0;
-  }
-
-  .product-2-title h2 {
-    text-align: center;
-    padding: 18vh 0 2vh 0;
-    font-weight: bold;
-  }
-
-  .product-2-title {
-    padding: 5vh 5vh 0 5vh;
-    text-align: justify;
-  }
-
-  .product-2-img {
-    padding: 50vh 5vh 0 5vh;
-    width: 45vh;
-    max-width: fit-content;
-    position: absolute;
-  }
-
-  /* Interactive view testimony section */
-  #testimony {
-    background: #fff;
-    padding: 13vh 0 21vh 0;
-  }
-
-  #testimony img {
-    max-width: 30vh;
-    width: 250px;
-    padding: 6vh 0 1vh 0;
-  }
-
-  #testimony h6 {
-    color: black;
-    font-size: 14px;
-    line-height: 3.0vh;
-    text-align: center;
-    font-weight: 400;
-    padding: 0 1vh 0 1vh;
-  }
-
-  .container-testimony {
-    max-width: 1100px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  #testimony h2 {
-    padding: 2vh 0 8vh 0;
-  }
-
-  .center-container-testimony {
-    padding: 0 5vh 0 5vh;
-  }
-
-  .testimony-1 {
-    display: block;
-    border-radius: 25px;
-  }
-
-  .bg-color-lightgrey {
-    background-color: rgb(240, 240, 240);
-  }
-
-  /********** interactive copyright views **********/
-  #copyright {
-    background: linear-gradient(40deg, #f33533, #f37270);
-    padding: 1rem;
-  }
-
-  #copyright #social-media a {
-    width: 40px;
-    height: 40px;
-    border-radius: 99%;
-    background: #ffffff;
-    transition: .4s ease;
-  }
-
-  #copyright #social-media a i {
-    color: #f33533;
-    font-size: 1.2rem;
-    line-height: 40px;
-  }
-
-  #copyright #social-media a:hover {
-    background: #f33533;
-  }
-
-  #copyright #social-media a:hover i {
-    color: #ffffff;
-  }
-
-  /* Interactive contact section view */
-  .center-form {
-    margin-top: 0 !important;
-    margin-bottom: 3rem !important;
-  }
-
-}
-
-.jumbotron header .container .row {
-  padding: 0 0 0 20px;
-}
-
-.feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(120deg, #f33533, #f37270);
-}
-
-.wrap-icon {
-  margin: 0 auto;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  position: relative;
-  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
-
-.feature-1 .wrap-icon i {
-  font-size: 46px;
-  line-height: 5;
-  color: #fff;
 }
