@@ -272,7 +272,7 @@ template {
     }
 
     abbr[title]::after {
-        content: " ("attr(title) ")"
+        content: " ("attr(title)")"
     }
 
     pre {
