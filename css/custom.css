@@ -539,46 +539,128 @@ img .img-fluid-feature {
 
 /* Testimonial */
 
-.container-testimony {
-  max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+#testimony {
+  height: 100vh;
+}
+
+#testimony .pl-lg-3 {
+  padding-left: 8rem !important;
 }
 
 #testimony h2 {
-  padding: 2vh 0 8vh 0;
+  padding: 18vh 0 5vh 0;
 }
 
 .testimony-1 {
-  display: flex;
   border-radius: 25px;
 }
 
 .bg-color-lightgrey {
   background-color: rgb(240, 240, 240);
   height: 50vh;
-}
-
-#testimony {
-  color: #000000;
-  padding: 10vh 0 20vh 0;
-}
-
-#testimony img {
-  max-width: 50vh;
-  padding: 19vh 0 0 10vh;
+  border-radius: 25px;
 }
 
 #testimony h6 {
   color: black;
-  font-size: 20px;
-  line-height: 5.5vh;
   text-align: justify;
   font-weight: 300;
-  padding: 6vh 13vh 0 10vh;
 }
+
+@media (max-width: 992px) {
+  #testimony {
+    height: 90vh;
+  }
+
+  .bg-color-lightgrey {
+    background-color: rgb(240, 240, 240);
+    height: 35vh;
+    border-radius: 25px;
+  }
+
+  #testimony .pr-5 {
+    padding-right: 0rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #testimony {
+    height: 90vh;
+  }
+
+  .bg-color-lightgrey {
+    background-color: rgb(240, 240, 240);
+    height: 37vh;
+    padding: 2vh 2vh 2vh 2vh;
+    border-radius: 25px;
+  }
+
+  #testimony .pl-lg-3 {
+    padding-left: 6rem !important;
+  }
+
+  #testimony .pr-5 {
+    padding-right: 0 !important;
+  }
+
+  #testimony h6 {
+    color: black;
+    /* font-size: 20px; */
+    line-height: auto;
+    text-align: justify;
+    font-weight: 300;
+  }
+
+}
+
+@media (max-width: 576px) {
+  #testimony {
+    height: 90vh;
+  }
+
+  #testimony .pl-lg-3 {
+    padding-left: 4rem !important;
+  }
+
+  #testimony .pr-5 {
+    padding-right: 0rem !important;
+  }
+
+  .bg-color-lightgrey {
+    background-color: rgb(240, 240, 240);
+    padding: 2vh 2vh 2vh 2vh;
+    border-radius: 25px;
+  }
+
+  #testimony .container {
+    padding: 0 5vh 0 5vh;
+  }
+
+}
+
+@media (max-width: 376px) {
+
+  #testimony {
+    height: 90vh;
+  }
+
+  .bg-color-lightgrey {
+    background-color: rgb(240, 240, 240);
+    height: 37vh;
+    padding: 2vh 2vh 2vh 2vh;
+    border-radius: 25px;
+  }
+
+  #testimony .pl-lg-3 {
+    padding-left: 4rem !important;
+  }
+
+  #testimony .pr-5 {
+    padding-right: 0rem !important;
+  }
+}
+
+
 
 
 /********** contact **********/
@@ -607,6 +689,13 @@ img .img-fluid-feature {
   color: #ffffff;
 }
 
+@media (max-width: 1367px) {
+  #contact {
+    padding: 20vh 0 14vh 0;
+    background-size: cover;
+  }
+}
+
 @media (max-width: 1024px) {
   #contact {
     padding: 20vh 0 14vh 0;
@@ -632,6 +721,10 @@ img .img-fluid-feature {
   #contact {
     padding: 4vh 0 1vh 0;
     background-size: cover;
+  }
+
+  #testimony .w-75 {
+    width: 50%;
   }
 }
 
