@@ -394,10 +394,6 @@ header
   padding: 0 0 0 0;
 }
 
-.container .product-title{
-  padding: 22vh 0 20vh 0;
-}
-
 .product-container{
   max-width: 1500px;
   margin-right: auto;
@@ -461,7 +457,7 @@ header
 }
 
 .container .product-title{
-  padding: 22vh 0 20vh 0;
+  padding: 10vh 0 20vh 0;
 }
 
 #product-last .container-feature img {
@@ -524,7 +520,7 @@ img .img-fluid-feature {
 
 #testimony {
     color: #000000;
-    padding: 20vh 0 20vh 0;
+    padding: 10vh 0 20vh 0;
 }
 
 #testimony img{
@@ -596,7 +592,7 @@ img .img-fluid-feature {
     color: #ffffff;
 }
 
-/********** RWD **********/
+/********** RWD - INTERACTIVE MOBILE SCREEN **********/
 @media only screen and (max-width: 575px) {
   #banner h1 {
       font-size: 3.6rem;

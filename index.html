@@ -40,7 +40,7 @@
                             <li><a href="#testimony">Testimonial</a></li>
                             <!-- <li><a href="#pricing-plans">Pricing</a></li> -->
                             <!-- <li><a href="#blog">Blog Entries</a></li> -->
-                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#contact-form">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -54,8 +54,7 @@
     <!-- ***** Header Area End ***** -->
 
     <!-- banner -->
-    <div class="jumbotron jumbotron-fluid" id="banner"
-        style="background-image: url(img/banner-bg-4.png); height: 100vh;">
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bg.jpg); height: 100vh;">
         <!-- <header>
             <div class="container">
                 <div class="row">
@@ -79,8 +78,8 @@
                 class="lead text-white-banner-desc my-4 font-weight-normal">
                 One central system to manage your multiple logistic data.
             </p>
-            <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true"
-                class="btn my-4 font-weight-bold atlas-cta cta-red ">Get Started</a>
+            <a href="#contact-form" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000"
+                data-aos-once="true" class="my-4 font-weight-bold atlas-cta cta-red ">Get Started</a>
         </div>
     </div>
     <!-- three-block -->
@@ -173,7 +172,7 @@
                 </p>
             </div>
             <div class="product-1-img" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-                <img src="img/product-feature-2.png" alt="Take a look inside" class="mx-auto d-block ">
+                <img src="img/product-first.jpg" alt="Take a look inside" class="mx-auto d-block ">
             </div>
         </div>
     </div>
@@ -182,7 +181,7 @@
     <div class="jumbotron jumbotron-fluid" id="product-last">
         <div class="product-container-2">
             <div class="product-2-img" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
-                <img src="img/product-last.png" alt="Take a look inside" class="mx-auto d-block ">
+                <img src="img/product-last.jpg" alt="Take a look inside" class="mx-auto d-block ">
             </div>
             <div class="product-2-title" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                 <h2 class="font-weight-bold">Multi Branch</h2>
@@ -202,7 +201,7 @@
             <div class="testimony-1 bg-color-lightgrey text-center" data-aos="fade-right" data-aos-duration="1000"
                 data-aos-once="true">
                 <div class="testimony-logo">
-                    <img src="img/logo-zzaslogistic.png" alt="Safe and reliable" class="mx-auto d-block mb-4">
+                    <img src="img/client-1-zzaslogistic.png" alt="Safe and reliable" class="mx-auto d-block mb-4">
                 </div>
                 <blockquote class="testimony-content">
                     <h6>
@@ -257,7 +256,7 @@
     </div>
     <!-- contact -->
     <div class="jumbotron jumbotron-fluid" id="contact"
-        style="background-image: url(img/contact-bg-3.png); height: 85vh; ">
+        style="background-image: url(img/contact-bg.jpg); height: 85vh; ">
         <div class="container center-form">
             <div class="row justify-content-between">
                 <div class="col-md-6 text-white">
@@ -278,20 +277,28 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <form>
+                    <form action="mailto:info@phisoft.my" method="post" id="contact-form">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
-                                <input type="name" class="form-control" id="name">
+                                <!-- <input type="name" class="form-control" id="name"> -->
+                                <fieldset>
+                                    <input name="name" type="text" class="form-control" id="name" required="">
+                                </fieldset>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="Email">Your Email</label>
-                                <input type="email" class="form-control" id="Email">
+                                <fieldset>
+                                    <input name="email" type="email" class="form-control" id="email" required="">
+                                </fieldset>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
+                            <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message"
+                                    required=""></textarea>
+                            </fieldset>
                         </div>
                         <button type="submit"
                             class="btn font-weight-bold atlas-cta atlas-cta-wide cta-red my-3">Submit</button>
