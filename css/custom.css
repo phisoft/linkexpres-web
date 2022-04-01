@@ -110,10 +110,6 @@ header
   padding: 0 0 0 20px;
 }
 
-.header {
-  display: block;
-}
-
 .header-area {
   position: fixed;
   top: 30px;
