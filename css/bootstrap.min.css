@@ -386,7 +386,7 @@ h6 {
 
 .h1,
 h1 {
-    font-size: 2.5rem
+    font-size: 3.5rem
 }
 
 .h2,
@@ -11422,10 +11422,6 @@ a.text-dark:hover {
 
     a:not(.btn) {
         text-decoration: underline
-    }
-
-    abbr[title]::after {
-        content: " ("attr(title) ")"
     }
 
     pre {
