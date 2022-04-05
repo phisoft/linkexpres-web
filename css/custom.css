@@ -399,15 +399,15 @@ PRODUCT SECTION
   order: 1;
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
   padding-bottom: 3rem !important;
 }
 
 #product-first .container .child-product .row-product .col-product h4 {
   font-size: 31px;
   font-weight: 650;
-  text-align: start;
+  text-align: center;
   padding: 0 15px 0 15px;
   margin: 0 0 3vh 0;
   color: #30282B;
@@ -450,7 +450,7 @@ PRODUCT SECTION
 #product-last .container .child-product .row-product .col-product h4 {
   font-size: 31px;
   font-weight: 650;
-  text-align: start;
+  text-align: center;
   padding: 0 15px 0 15px;
   margin: 0 0 3vh 0;
   color: #30282B;
@@ -482,7 +482,7 @@ TESTIMONY SECTION
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0 0 5vh 0;
   color: #30282B;
-  padding: 18vh 0 5vh 0;
+  padding: 11vh 0 5vh 0;
 }
 
 .row-testimony {
