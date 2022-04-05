@@ -473,6 +473,8 @@ TESTIMONY SECTION
 
 #testimony {
   height: 100vh;
+  /* padding: 0 0 12vh 0; */
+  margin: 0 0 10vh 0;
 }
 
 #testimony .container h2 {
@@ -501,7 +503,7 @@ TESTIMONY SECTION
 
 .image-testimony {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 2vh 0 4vh 0;
 }
 
