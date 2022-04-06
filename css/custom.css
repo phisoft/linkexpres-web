@@ -467,7 +467,7 @@ PRODUCT SECTION
 }
 
 #product-3 .container .child-product .row-product .col-product h4 {
-  font-size: 31px;
+  font-size: 25px;
   font-weight: 650;
   text-align: center;
   padding: 0 15px 0 15px;
@@ -485,7 +485,7 @@ PRODUCT SECTION
 }
 
 #product-4 .container .child-product .row-product .col-product h4 {
-  font-size: 31px;
+  font-size: 25px;
   font-weight: 650;
   text-align: center;
   padding: 0 15px 0 15px;
@@ -499,7 +499,7 @@ PRODUCT SECTION
   margin: 0 0 0 0;
   color: #30282B;
   font-size: 18px;
-  text-align: start;
+  text-align: justify;
 }
 
 .image-product {
@@ -528,7 +528,6 @@ TESTIMONY SECTION
 
 #testimony {
   height: 100vh;
-  margin: 0 0 5vh 0;
 }
 
 #testimony .container h2 {
@@ -541,7 +540,7 @@ TESTIMONY SECTION
   padding: 5vh 0 5vh 0;
 }
 
-.col-testimony {
+/* .col-testimony {
   padding: 5vh 5vh 5vh 5vh;
   margin: 0 2vh 0 2vh;
   text-align: justify;
@@ -550,7 +549,7 @@ TESTIMONY SECTION
   justify-content: center;
   background-color: #FFEDED;
   border-radius: 50px;
-}
+} */
 
 .row-testimony {
   display: -ms-flexbox;
