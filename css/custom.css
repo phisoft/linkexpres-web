@@ -441,9 +441,14 @@ header
   background: linear-gradient(168deg, #ffffff 55%, #f8f9fa 0);
 }
 
+<<<<<<< Updated upstream
 .product-border {
   border-radius: 20px;
   box-shadow: 0 0 15px 1px rgb(0 0 0 / 0.2);
+=======
+#product-4 {
+  padding: 0 0 2vh 0;
+>>>>>>> Stashed changes
 }
 
 #product-last {
@@ -471,18 +476,39 @@ header
 
 }
 
+<<<<<<< Updated upstream
 @media (max-width: 576px) {
   #product .pb-lg-5 {
     padding-bottom: 0 !important;
   }
+=======
+#product-3 .container .child-product .row-product .col-product h4 {
+  font-size: 25px;
+  font-weight: 650;
+  text-align: center;
+  padding: 0 15px 0 15px;
+  margin: 0 0 3vh 0;
+  color: #30282B;
+}
+>>>>>>> Stashed changes
 
   #product .pb-md-5 {
     padding-bottom: 0 !important;
   }
 
+<<<<<<< Updated upstream
   #product .pb-sm-5 {
     padding-bottom: 4rem !important;
   }
+=======
+#product-4 .container .child-product .row-product .col-product h4 {
+  font-size: 25px;
+  font-weight: 650;
+  text-align: center;
+  padding: 0 15px 0 15px;
+  margin: 0 0 3vh 0;
+  color: #30282B;
+>>>>>>> Stashed changes
 }
 
 @media (max-width: 376x) {}
@@ -490,16 +516,25 @@ header
 /* Testimonial */
 
 #testimony {
+<<<<<<< Updated upstream
   height: 100vh;
+=======
+  height: 80vh;
+  /* margin: 0 0 5vh 0; */
+>>>>>>> Stashed changes
 }
 
 #testimony .pl-lg-3 {
   padding-left: 8rem !important;
 }
 
+<<<<<<< Updated upstream
 #testimony h2 {
   padding: 18vh 0 5vh 0;
 }
+=======
+
+>>>>>>> Stashed changes
 
 .testimony-1 {
   border-radius: 25px;
