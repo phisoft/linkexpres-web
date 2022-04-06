@@ -1,4 +1,25 @@
 /********** common setting **********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
 
 h6 {
   font-weight: 700;
@@ -16,14 +37,6 @@ button {
 
 a {
   text-decoration: none;
-}
-
-.jumbotron {
-  margin-bottom: 0 !important;
-}
-
-.shadow-lg {
-  box-shadow: 1px 1px 5px black;
 }
 
 /* 
@@ -106,9 +119,9 @@ HEADER/MENU SECTION
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 15px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -235,19 +248,29 @@ BANNER SECTION
 #banner .container .child-banner h1 {
   color: white;
   text-shadow: 2px 2px 6px black;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size: 37px;
+  font-size: 25px;
   text-align: center;
 }
 
-#banner .container .child-banner p {
+#banner .container .child-banner .row-banner p {
+  font-family: 'Poppins', sans-serif;
   color: white;
-  text-shadow: 2px 2px 6px black;
+  text-shadow: 1px 1px 5px black;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 2vh;
   margin-bottom: 5vh;
-  text-align: center;
+  text-align: start;
+}
+
+.row-banner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2vh 0 2vh;
+  margin-right: -15px;
+  margin-left: -15px
 }
 
 .col-banner {
@@ -255,28 +278,24 @@ BANNER SECTION
   order: 1;
   position: relative;
   width: 100%;
-  /* padding-right: 15px;
-  padding-left: 15px; */
   padding-bottom: 3rem !important;
   text-align: center;
 }
 
 #banner .container .child-banner a {
   color: white;
-  background: linear-gradient(-45deg, #30282b, #f72320);
-  font-weight: bold;
-  font-size: 18px;
   margin-top: 2vh;
   margin-bottom: 5vh;
-  border-radius: 8px !important;
-  padding: 10px 30px !important;
+  border-radius: 20px !important;
+  padding: 10px 50px !important;
   font-weight: 600;
   transition: .5s ease-in-out !important;
   text-decoration: none;
+  background-color: #F33E3C;
 }
 
 #banner .container .child-banner a:hover {
-  color: #f33533;
+  color: #F33E3C;
   background: white;
 }
 
@@ -287,15 +306,15 @@ FEATURES SECTION
 */
 
 .container .child-feature {
-  margin: 26vh 0 26vh 0;
+  margin: 20vh 0 20vh 0;
 }
 
 .container .child-feature h2 {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size: 44px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0 0 5vh 0;
+  font-size: 27px;
+  margin: 0 0 7vh 0;
   color: #30282B;
 }
 
@@ -310,7 +329,7 @@ FEATURES SECTION
 .container .child-feature .row-feature .col-feature {
   position: relative;
   width: 100%;
-  padding: 0 15px 0 15px;
+  padding: 0 15px 30px 15px;
   margin: 0 0 0 0;
   text-align: center;
 }
@@ -319,13 +338,10 @@ FEATURES SECTION
   padding: 0 15px 45px 15px;
   margin: 0 0 3vh 0;
   text-align: center;
-  border-radius: 2%;
-  box-shadow: 1px 1px 4px 1px rgb(0 0 0 / 15%);
-  background-color: #f8f9fa;
 }
 
 .container .child-feature .row-feature .col-feature h4 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   text-align: center;
   padding: 0 15px 0 15px;
@@ -337,17 +353,17 @@ FEATURES SECTION
   position: relative;
   padding: 0 15px 0 15px;
   margin: 0 0 0 0;
-  text-align: justify;
+  text-align: center;
   color: #30282B;
-  font-size: 17.5px;
+  font-size: 18px;
 }
 
 .container .child-feature .row-feature .col-feature .icon-feature {
-  background: linear-gradient(-45deg, #30282b, #f72320);
+  background: #F33E3C;
   margin: 0 auto;
-  height: 80px;
-  width: 80px;
-  border-radius: 13%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
   position: relative;
   box-shadow: 0 15px 30px 0 rgb(0 0 0 / 20%);
   display: inline-flex;
@@ -359,7 +375,6 @@ FEATURES SECTION
 
 .container .child-feature .row-feature .col-feature .icon-feature i {
   font-size: 50px;
-  line-height: 5;
   color: #fff;
 }
 
@@ -369,16 +384,27 @@ PRODUCT SECTION
 --------------------------------------------- 
 */
 
-#product-first {
-  background: linear-gradient(168deg, #ffffff 55%, #f8f9fa 0);
+#product-1 {
   padding: 0 0 8.5vh 0;
 }
 
-#product-first .container .child-product h2 {
+#product-2 {
+  padding: 0 0 8.5vh 0;
+}
+
+#product-3 {
+  padding: 0 0 8.5vh 0;
+}
+
+#product-4 {
+  padding: 0 0 13.5vh 0;
+}
+
+#product-1 .container .child-product h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 37px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 27px;
+  font-family: 'Poppins', sans-serif;
   margin: 0 0 5vh 0;
   color: #30282B;
 }
@@ -400,11 +426,47 @@ PRODUCT SECTION
   position: relative;
   width: 100%;
   padding-right: 25px;
-  padding-left: 25px;
+  padding-left: 15px;
   padding-bottom: 3rem !important;
 }
 
-#product-first .container .child-product .row-product .col-product h4 {
+#product-1 .container .child-product .row-product .col-product h4 {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 15px 0 15px;
+  margin: 0 0 3vh 0;
+  color: #30282B;
+}
+
+#product-1 .container .child-product .row-product .col-product p {
+  position: relative;
+  padding: 0 15px 0 15px;
+  margin: 0 0 0 0;
+  color: #30282B;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#product-2 .container .child-product .row-product .col-product h4 {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 15px 0 15px;
+  margin: 0 0 3vh 0;
+  color: #30282B;
+}
+
+#product-2 .container .child-product .row-product .col-product p {
+  position: relative;
+  padding: 0 15px 0 15px;
+  margin: 0 0 0 0;
+  color: #30282B;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#product-3 .container .child-product .row-product .col-product h4 {
   font-size: 31px;
   font-weight: 650;
   text-align: center;
@@ -413,13 +475,31 @@ PRODUCT SECTION
   color: #30282B;
 }
 
-#product-first .container .child-product .row-product .col-product p {
+#product-3 .container .child-product .row-product .col-product p {
   position: relative;
   padding: 0 15px 0 15px;
   margin: 0 0 0 0;
   color: #30282B;
   font-size: 18px;
   text-align: justify;
+}
+
+#product-4 .container .child-product .row-product .col-product h4 {
+  font-size: 31px;
+  font-weight: 650;
+  text-align: center;
+  padding: 0 15px 0 15px;
+  margin: 0 0 3vh 0;
+  color: #30282B;
+}
+
+#product-4 .container .child-product .row-product .col-product p {
+  position: relative;
+  padding: 0 15px 0 15px;
+  margin: 0 0 0 0;
+  color: #30282B;
+  font-size: 18px;
+  text-align: start;
 }
 
 .image-product {
@@ -438,31 +518,6 @@ PRODUCT SECTION
 .image-product img {
   width: auto;
   overflow: hidden;
-  /* border-radius: 20px; */
-  /* box-shadow: 0 0 15px 1px rgb(0 0 0 / 0.2); */
-}
-
-#product-last {
-  background: #f8f9fa;
-  padding: 0 0 13.5vh 0;
-}
-
-#product-last .container .child-product .row-product .col-product h4 {
-  font-size: 31px;
-  font-weight: 650;
-  text-align: center;
-  padding: 0 15px 0 15px;
-  margin: 0 0 3vh 0;
-  color: #30282B;
-}
-
-#product-last .container .child-product .row-product .col-product p {
-  position: relative;
-  padding: 0 15px 0 15px;
-  margin: 0 0 0 0;
-  color: #30282B;
-  font-size: 18px;
-  text-align: justify;
 }
 
 /* 
@@ -473,18 +528,28 @@ TESTIMONY SECTION
 
 #testimony {
   height: 100vh;
-  /* padding: 0 0 12vh 0; */
-  margin: 0 0 10vh 0;
+  margin: 0 0 5vh 0;
 }
 
 #testimony .container h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 44px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
   margin: 0 0 5vh 0;
   color: #30282B;
-  padding: 11vh 0 5vh 0;
+  padding: 5vh 0 5vh 0;
+}
+
+.col-testimony {
+  padding: 5vh 5vh 5vh 5vh;
+  margin: 0 2vh 0 2vh;
+  text-align: justify;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  background-color: #FFEDED;
+  border-radius: 50px;
 }
 
 .row-testimony {
@@ -503,49 +568,17 @@ TESTIMONY SECTION
 
 .image-testimony {
   position: relative;
-  /* overflow: hidden; */
-  padding: 2vh 0 4vh 0;
-}
-
-.col-testimony {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-blockquote::before {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  content: '\201c';
-  font-size: 27px;
-  font-weight: bolder;
-}
-
-blockquote::after {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  content: '\201d';
-  font-size: 27px;
-  font-weight: bolder;
 }
 
 #testimony blockquote h6 {
   position: relative;
-  /* padding: 0 7.5vh 2.5vh 0; */
   margin: 0 0 0 0;
   color: #30282B;
-  font-size: 17.5px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: auto;
-  text-align: left;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-#testimony figcaption,
-strong {
-  color: #30282B;
-  font-size: 20px;
-  font-weight: 400;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.8rem;
 }
 
 /* 
@@ -560,18 +593,6 @@ CONTACT SECTION
   background-image: url('../img/contact-bg.jpg');
 }
 
-
-.row-contact {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .col-contact-info {
   position: relative;
   width: 100%;
@@ -583,17 +604,17 @@ CONTACT SECTION
   color: white;
   text-align: start;
   font-weight: bold;
-  font-size: 44px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
 }
 
 #contact .container .child-contact .row-contact .col-contact-info p {
   position: relative;
   color: white;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   text-align: start;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -601,9 +622,9 @@ CONTACT SECTION
   position: relative;
   color: white;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   text-align: start;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 1.2rem 0 0 0;
 }
 
@@ -615,23 +636,24 @@ CONTACT SECTION
 .col-contact-form input,
 .col-contact-form textarea {
   background: transparent;
-  border: 1px solid #ffffff;
+  border: 0.5px solid #ffffff;
   color: #ffffff;
 }
 
 #contact .container .child-contact .row-contact .col-contact-form form button {
   color: white;
   width: 100%;
-  background: linear-gradient(-45deg, #30282b, #f72320);
-  font-weight: bold;
-  font-size: 18px;
+  background: #F33E3C;
+  font-weight: 400;
+  font-size: 17px;
   margin-top: 2vh;
   margin-bottom: 1rem !important;
   border-radius: 8px !important;
   padding: 10px 30px !important;
-  font-weight: 600;
   transition: .5s ease-in-out !important;
   text-decoration: none;
+  border: 0.5px solid #ffffff;
+  color: #ffffff;
 }
 
 #contact .container .child-contact .row-contact .col-contact-form form button:hover {
@@ -646,7 +668,7 @@ COPYRIGHT SECTION
 */
 
 #copyright {
-  background: linear-gradient(-45deg, #30282b, #f72320);
+  background: #F33E3C;
   padding: 2rem 3rem;
 }
 
@@ -684,7 +706,8 @@ COPYRIGHT SECTION
 
 .col-copyright-social-media a {
   width: 40px;
-  font-size: larger;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
   height: 40px;
   border-radius: 15%;
   background: #ffffff;
@@ -698,7 +721,7 @@ COPYRIGHT SECTION
 }
 
 .col-copyright-social-media a:hover {
-  background: #f33533;
+  background: #30282B;
 }
 
 .col-copyright-social-media a:hover i {
