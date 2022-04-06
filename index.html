@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <!--Bootstrap Icon-->
     <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- AOS -->
     <link rel="stylesheet" href="css/aos.css">
 </head>
@@ -38,7 +40,7 @@
                             <li><a href="index.html#banner" class="active">Home</a></li>
                             <li><a href="index.html#feature">Features</a></li>
                             <li><a href="index.html#product">Product</a></li>
-                            <li><a href="index.html#testimony">Testimonial</a></li>
+                            <li><a href="index.html#testimony">Clients</a></li>
                             <li><a href="index.html#contact">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -54,15 +56,19 @@
     <div id="banner">
         <div class="container">
             <div class="child-banner">
-                <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true">
-                    LOGISTIC MANAGEMENT <br>
-                    SYSTEM
-                </h1>
-                <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true">
-                    One central system to manage your multiple logistic data.
-                <div class="col-banner">
-                    <a href="#contact" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000"
-                        data-aos-once="true">Get Started</a>
+                <div class="row-banner">
+                    <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true">
+                        One central system to manage your multiple logistic data
+                    </h1>
+                    <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true">
+                        Optimise your logistic operation with a simple solution that easily manage order processing,
+                        payment
+                        status, and report generation. manage your multiple branch in real-time and centralised
+                        environment.
+                    <div class="col-banner">
+                        <a href="index.html#contact" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000"
+                            data-aos-once="true">Get Started</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,100 +77,76 @@
     <!-- KEY FEATURES SECTION -->
     <div class="container" id="feature">
         <div class="child-feature">
-            <h2 data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true">KEY FEATURES</h2>
+            <h2 data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true">Key Features</h2>
             <div class="row-feature">
                 <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true"
                     class="col-feature">
-                    <div class="border-feature">
-                        <div class="icon-feature">
-                            <i class="bi bi-truck"></i>
-                        </div>
-                        <h4>Shipment Management</h4>
-                        <p>Create and update shipment, print receipt, print airway bill, track status. — Linkexpres
-                            keep you up-to-date and never miss single record again.</p>
+                    <div class="icon-feature">
+                        <i class="bi bi-truck"></i>
                     </div>
+                    <h4>Shipment Management</h4>
+                    <p>Create and update shipment, print receipt, print airway bill, track status.</p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true"
                     class="col-feature">
-                    <div class="border-feature">
-                        <div class="icon-feature">
-                            <i class="bi bi-graph-up"></i>
-                        </div>
-                        <h4>Summary Dashboard</h4>
-                        <p>Know exactly what's going on in your business at all times. Given Shipment amount analytics
-                            and
-                            shipment
-                            summary will drill you to details.</p>
+                    <div class="icon-feature">
+                        <i class="bi bi-graph-up"></i>
                     </div>
+                    <h4>Summary Dashboard</h4>
+                    <p>Shipment amount analytics, shipment summary.</p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true"
                     class="col-feature">
-                    <div class="border-feature">
-                        <div class="icon-feature">
-
-                            <i class="bi bi-person-check"></i>
-                        </div>
-                        <h4>Customer Management</h4>
-                        <p>Empowers your entire business productivity with custommer management system. We help create
-                            customer,
-                            create
-                            shipment, download customer listings.</p>
+                    <div class="icon-feature">
+                        <i class="bi bi-person-check"></i>
                     </div>
+                    <h4>Customer Management</h4>
+                    <p>Create customer, create shipment, download customer listings.</p>
                 </div>
             </div>
             <div class="row-feature">
                 <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-once="true"
                     class="col-feature">
-                    <div class="border-feature">
-                        <div class="icon-feature">
-                            <i class="bi bi-tags"></i>
-                        </div>
-                        <h4>Payment Filter</h4>
-                        <p>Filtering, is a simple yet powerful way to analyze data effectively. Linkexpres provide
-                            payment filtering; Track shipment payment status, filter reporting, print report. </p>
+                    <div class="icon-feature">
+                        <i class="bi bi-tags"></i>
                     </div>
+                    <h4>Payment Filter</h4>
+                    <p>Track shipment payment status, filter reporting, print report.</p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true"
                     class="col-feature">
-                    <div class="border-feature">
-                        <div class="icon-feature">
-                            <i class="bi bi-qr-code-scan"></i>
-                        </div>
-                        <h4>Multiple Branch Support</h4>
-                        <p>Support multi-branch management in a single platform. You decide whether to export data for
-                            individual branches, or company-wide, for reporting and analysis.</p>
+                    <div class="icon-feature">
+                        <i class="bi bi-qr-code-scan"></i>
                     </div>
+                    <h4>Multiple Branch Support</h4>
+                    <p>Support multi-branch management in single platform.</p>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true"
                     class="col-feature">
-                    <div class="border-feature">
-                        <div class="icon-feature">
-                            <i class="bi bi-file-earmark-spreadsheet"></i>
-                        </div>
-                        <h4>Shipment Reporting</h4>
-                        <p>Generate easy and precise payment status filter, report printing and multi-branch report. We
-                            have the capabilities to keep your business on track every step of the
-                            way. </p>
+                    <div class="icon-feature">
+                        <i class="bi bi-file-earmark-spreadsheet"></i>
                     </div>
+                    <h4>Shipment Reporting</h4>
+                    <p>Payment status filter, report printing, multi-branch report.</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- PRODUCT SECTION -->
-    <div id="product-first">
+    <div id="product-1">
         <div class="container" id="product">
             <div class="child-product">
                 <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                    PRODUCT SERVICES</h2>
+                    Increase efficiency and eliminate unnecessary manual work</h2>
                 <div class="row-product">
                     <div class="col-product">
                         <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                            <h4>Optimizing Operation</h4>
+                            <h4>Achieve operational efficiency</h4>
                             <p>
-                                Increased flexibility and efficiency through Linkexpres. A logistic management system
-                                which boost your productivity in various optimized operations. We provide dashboard
-                                statistic, order processing, transport orders to customers and report generation.
+                                With an automated centralised system and paperless workflow, your business can focus on
+                                sales goals that bring in more revenues while keeping the daily operation running
+                                smoothly.
                             </p>
                         </div>
                     </div>
@@ -175,7 +157,7 @@
             </div>
         </div>
     </div>
-    <div id="product-last">
+    <div id="product-2">
         <div class="container">
             <div class="child-product">
                 <div class="row-product">
@@ -183,8 +165,48 @@
                         <img src="img/product-2.png" alt="image">
                     </div>
                     <div class="col-product">
-                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-                            <h4>Multi Branch</h4>
+                        <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                            <h4>Quickly get report insights</h4>
+                            <p>Our automatic order analysis features helps to generate report faster with less manual
+                                paper work required. Get the latest shipment, order, and payment report quickly in one
+                                solution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="product-3">
+        <div class="container" id="product">
+            <div class="child-product">
+                <div class="row-product">
+                    <div class="col-product">
+                        <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                            <h4>Minimal effort setup</h4>
+                            <p>
+                                Linkexpres is a simple platform that requires minimal setup. With dedicated onboarding
+                                support and zero coding on your side, all employees can access and start using the
+                                system in no time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="image-product" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                        <img src="img/product-3.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="product-4">
+        <div class="container">
+            <div class="child-product">
+                <div class="row-product">
+                    <div class="image-product" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                        <img src="img/product-4.png" alt="image">
+                    </div>
+                    <div class="col-product">
+                        <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                            <h4>Multi Branch Support</h4>
                             <p>Conquer every last mile of your branch environment in a single platform. Linkexpres help
                                 you to execute logistic process in a multi-branch supports to ensure seamless &
                                 efficient goods
@@ -199,32 +221,30 @@
     <!-- TESTIMONY SECTION-->
     <div id="testimony">
         <div class="container">
-            <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">TESTIMONIAL</h2>
-            <div class=" row-testimony" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+            <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">Our Clients</h2>
+            <div class="col-testimony" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                 <div class="image-testimony">
                     <img src="img/client-1-zzaslogistic.png" alt="image">
                 </div>
-                <div class="col-testimony">
-                    <blockquote>
-                        <h6>
-                            We have helped to improve the business efficiency of ZZAS Logistics with
-                            Linkexpres
-                            by
-                            providing
-                            a
-                            logistics management system that enables the company to manage multiple branches
-                            on
-                            a
-                            single
-                            platform. Linkexpres also assisted ZZAS Logistics in processing monthly invoice
-                            claims
-                            with
-                            its
-                            centralized and configurable reporting system feature.
-                        </h6>
-                    </blockquote>
-                    <figcaption>— <strong>ZZAS Logistics</strong></figcaption>
-                </div>
+                <blockquote>
+                    <h6>
+                        We have helped to improve the business efficiency of ZZAS Logistics with
+                        Linkexpres
+                        by
+                        providing
+                        a
+                        logistics management system that enables the company to manage multiple branches
+                        on
+                        a
+                        single
+                        platform. Linkexpres also assisted ZZAS Logistics in processing monthly invoice
+                        claims
+                        with
+                        its
+                        centralized and configurable reporting system feature.
+                    </h6>
+                </blockquote>
+
             </div>
         </div>
     </div>
@@ -240,9 +260,9 @@
                             PHI SOFTWARE SDN. BHD.
                         </p>
                         <ul class="list-unstyled">
-                            <li>Email : info@phisoft.com</li>
-                            <li>Phone : +60 12 866 9695 </li>
-                            <li>Address : <br>
+                            <li>Email: info@phisoft.com</li>
+                            <li>Phone: +60 12 866 9695 </li>
+                            <li>Address: <br>
                                 H-8-10, Aeropod Commercial Square, <br>
                                 Jalan Aeropod Off Jalan Kepayan, <br>
                                 88200 Kota Kinabalu, Sabah, MY. <br>
@@ -285,7 +305,7 @@
         <div class="container">
             <div class="row-copyright">
                 <div class="col-copyright">
-                    Copyright © 2022 Linkexpres.com
+                    Copyright © 2022 Linkexpres
                 </div>
                 <div class="col-copyright-social-media">
                     <a href="https://www.facebook.com/phisoft.my/" class="d-inline-block text-center ml-2">

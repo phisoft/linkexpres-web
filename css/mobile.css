@@ -1,4 +1,5 @@
 /* COSTUME MOBILE RESPONSIVENESS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 /* 
 ---------------------------------------------
@@ -121,10 +122,22 @@ BANNER SECTION
 @media (min-width:992px) {
     #banner .container .child-banner h1 {
         color: white;
-        text-shadow: 2px 2px 6px black;
+        text-shadow: 1px 1px 7px black;
         font-weight: bold;
-        font-size: 48px;
         text-align: start;
+        font-size: 28.5px;
+    }
+
+    .row-banner {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 2vh 0 2vh;
+        margin-right: -15px;
+        margin-left: -15px;
+        -ms-flex-order: 1;
+        order: 1;
+        position: relative;
+        width: 50%;
     }
 
     .col-banner {
@@ -132,39 +145,36 @@ BANNER SECTION
         order: 1;
         position: relative;
         width: 100%;
-        /* padding-right: 15px;
-        padding-left: 15px; */
         padding-bottom: 3rem !important;
         text-align: start;
     }
 
-    #banner .container .child-banner p {
+    #banner .container .child-banner .row-banner p {
         color: white;
-        text-shadow: 2px 2px 6px black;
+        text-shadow: 0px 0px 0px 0px black;
         font-weight: normal;
-        font-size: 22px;
+        font-size: 18px;
         margin-top: 2vh;
         margin-bottom: 5vh;
         text-align: start;
     }
 
-
     #banner .container .child-banner a {
         color: white;
-        background: linear-gradient(-45deg, #30282b, #f72320);
-        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
         font-size: 18px;
+        font-weight: 400;
+        background: #F33E3C;
         margin-top: 2vh;
         margin-bottom: 5vh;
-        border-radius: 8px !important;
+        border-radius: 25px !important;
         padding: 10px 30px !important;
-        font-weight: 600;
         transition: .5s ease-in-out !important;
         text-decoration: none;
     }
 
     #banner .container .child-banner a:hover {
-        color: #f33533;
+        color: #F33E3C;
         background: white;
     }
 }
@@ -191,7 +201,6 @@ FEATURE SECTION
 @media (max-width:992px) {
     .container .child-feature .row-feature {
         display: flex;
-        /* flex-wrap: wrap; */
         padding: 0 2vh 0 2vh;
         margin-right: -15px;
         margin-left: -15px
@@ -220,14 +229,20 @@ PRODUCT SECTION
 
 @media (min-width:992px) {
 
-    #product-first {
-        background: linear-gradient(168deg, #ffffff 55%, #f8f9fa 0);
-        padding: 0 0 20vh 0;
+    #product-1 {
+        padding: 0 0 7vh 0;
     }
 
-    #product-last {
-        background: #f8f9fa;
-        padding: 0 0 26vh 0;
+    #product-2 {
+        padding: 0 0 7vh 0;
+    }
+
+    #product-3 {
+        padding: 0 0 7vh 0;
+    }
+
+    #product-4 {
+        padding: 0 0 7vh 0;
     }
 
     .col-product {
@@ -238,7 +253,7 @@ PRODUCT SECTION
         order: 1
     }
 
-    #product-first .image-product {
+    #product-1 .image-product {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
@@ -246,7 +261,23 @@ PRODUCT SECTION
         order: 1
     }
 
-    #product-last .image-product {
+    #product-2 .image-product {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        -ms-flex-order: 1;
+        order: 1
+    }
+
+    #product-3 .image-product {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        -ms-flex-order: 1;
+        order: 1
+    }
+
+    #product-4 .image-product {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
@@ -254,36 +285,63 @@ PRODUCT SECTION
         order: 0
     }
 
-    #product-first .container .child-product .row-product .col-product h4 {
-        font-size: 31px;
-        font-weight: 650;
-        text-align: end;
+    #product-1 .container .child-product h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        margin: 0 0 5vh 0;
+        color: #30282B;
+    }
+
+    #product-1 .container .child-product .row-product .col-product h4 {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: start;
         padding: 0 15px 0 15px;
         margin: 0 0 3vh 0;
         color: #30282B;
     }
 
-    #product-first .container .child-product .row-product .col-product p {
+    #product-1 .container .child-product .row-product .col-product p {
         position: relative;
         padding: 0 15px 0 15px;
         margin: 0 0 0 0;
         color: #30282B;
         font-size: 18px;
-        text-align: end;
+        text-align: left;
     }
 
-    #product-first .container .child-product h2 {
-        text-align: left;
-        font-weight: bold;
-        font-size: 44px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        margin: 0 0 5vh 0;
+    #product-2 .container .child-product .row-product .col-product h4 {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: justify;
+        padding: 0 15px 0 15px;
+        margin: 0 0 3vh 0;
         color: #30282B;
     }
 
-    #product-last .container .child-product .row-product .col-product h4 {
-        font-size: 31px;
-        font-weight: 650;
+    #product-3 .container .child-product .row-product .col-product h4 {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: start;
+        padding: 0 15px 0 15px;
+        margin: 0 0 3vh 0;
+        color: #30282B;
+    }
+
+    #product-3 .container .child-product .row-product .col-product p {
+        position: relative;
+        padding: 0 15px 0 15px;
+        margin: 0 0 0 0;
+        color: #30282B;
+        font-size: 18px;
+        text-align: start;
+    }
+
+    #product-4 .container .child-product .row-product .col-product h4 {
+        font-size: 25px;
+        font-weight: 600;
         text-align: justify;
         padding: 0 15px 0 15px;
         margin: 0 0 3vh 0;
@@ -305,64 +363,47 @@ TESTIMONY SECTION
 */
 
 @media (min-width:992px) {
-    .row-testimony {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-        align-items: center;
-        justify-content: center;
-        background-color: #e2dfdf;
-        border-radius: 10px;
-        padding: 3.6vh 0 3.6vh 0;
-        margin: 0 9vh 0 9vh;
-        -ms-flex-order: 1;
-        order: 1
-    }
 
     #testimony .container h2 {
         text-align: center;
         font-weight: bold;
-        font-size: 44px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 27px;
+        font-family: 'Poppins', sans-serif;
         margin: 0 0 5vh 0;
         color: #30282B;
-        padding: 18vh 0 5vh 0;
+        padding: 12vh 0 5vh 0;
     }
 
     .col-testimony {
         position: relative;
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        -ms-flex-order: 1;
-        order: 1;
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%
+        width: 80%;
+        padding-right: 25px;
+        padding-left: 25px;
+        left: 15vh;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFEDED;
+        border-radius: 50px;
+        text-align: center;
+        padding: 8vh 8vh 8vh 8vh;
     }
 
     .image-testimony {
         position: relative;
         overflow: hidden;
-        padding: 0 0 0 9.5vh;
-        width: 50% !important;
-    }
-
-    .image-testimony img {
-        max-width: 80% !important;
+        left: 32vh;
+        width: 30% !important;
+        padding: 0vh 0 3vh 0;
     }
 
     #testimony blockquote h6 {
         position: relative;
-        padding: 0 7.5vh 2.5vh 0;
+        padding: 0 5vh 10px 5vh;
         margin: 0 0 0 0;
         color: #30282B;
         font-size: 18px;
-        text-align: justify;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
@@ -372,8 +413,6 @@ TESTIMONY SECTION
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        /* margin-right: -15px;
-        margin-left: -15px; */
         align-items: center;
         justify-content: center;
         background-color: #e2dfdf;
@@ -427,16 +466,15 @@ FOOTER SECTION
 */
 @media (max-width:1200px) {}
 
-@media (min-width:992px) {}
-
-@media (min-width:768px) {
+@media (min-width:992px) {
     .col-copyright {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
         text-align: left;
         color: white;
-        font-size: 15.5px;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
     }
 
     .col-copyright-social-media {
@@ -446,7 +484,16 @@ FOOTER SECTION
         text-align: right;
         color: white;
     }
+
+    .row-contact {
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
 }
+
+@media (min-width:768px) {}
 
 @media (min-width:576px) {}
 
