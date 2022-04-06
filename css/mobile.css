@@ -349,7 +349,11 @@ PRODUCT SECTION
     }
 }
 
-@media (min-width:768px) {}
+@media (max-width:822px) {
+    #product-4 {
+        padding: 0 0 0 0;
+    }
+}
 
 @media (min-width:576px) {}
 
@@ -421,11 +425,87 @@ TESTIMONY SECTION
     }
 }
 
-@media (min-width:768px) {}
+@media (max-width:822px) {
+    #testimony {
+        height: 60vh;
+    }
 
-@media (min-width:576px) {}
+    #testimony .container h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        margin: 0 0 0 0;
+        color: #30282B;
+        padding: 5vh 0 5vh 0;
+    }
 
-@media (min-width:390px) {}
+    .image-testimony {
+        position: relative;
+        overflow: hidden;
+        left: 12vh;
+        width: 45% !important;
+        padding: 0vh 0 2vh 0;
+    }
+
+    .col-testimony {
+        padding: 5vh 5vh 5vh 5vh;
+        text-align: justify;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        background-color: #FFEDED;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width:416px) {
+    #testimony {
+        height: 100vh;
+    }
+
+    .image-testimony {
+        position: relative;
+        overflow: hidden;
+        left: 2vh;
+        width: 90% !important;
+        padding: 0vh 0 2vh 0;
+    }
+}
+
+@media (max-width:392px) {
+    #testimony {
+        height: 80vh;
+    }
+
+    .image-testimony {
+        position: relative;
+        overflow: hidden;
+        left: 1vh;
+        width: 90% !important;
+        padding: 0vh 0 2vh 0;
+    }
+
+    #testimony .container h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+        margin: 5vh 0 0 0;
+        color: #30282B;
+        padding: 5vh 0 5vh 0;
+    }
+
+    .col-testimony {
+        padding: 2vh 2vh 4vh 2vh;
+        text-align: justify;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        background-color: #FFEDED;
+        border-radius: 50px;
+    }
+}
 
 
 /* 
